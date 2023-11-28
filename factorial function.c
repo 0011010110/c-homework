@@ -13,6 +13,6 @@ int main()
 	printf("Please input a integer to caculate factorial.\n");
 	scanf("%d", &n);
 	m = fact(n);
-	printf("n!=%d\n", &m);
+	printf("n!=%d\n", m);
 	return 0;
 }
